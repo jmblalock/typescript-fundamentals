@@ -72,7 +72,7 @@ export { Album }; // 👈 hover over the "Album" -- all three slots filled
  * (6) Namespaces have their own slot, and are also values
  */
 
-// // 💡 they can be merged with classes
+// 💡 they can be merged with classes
 
 class AddressBook {
   contacts!: Contact[];
@@ -84,7 +84,7 @@ namespace AddressBook {
 const ab = new AddressBook();
 ab.contacts.push(new AddressBook.ABContact());
 
-// // 💡 or functions
+// 💡 or functions
 
 function format(amt: number) {
   return `${format.currency}${amt.toFixed(2)}`;
